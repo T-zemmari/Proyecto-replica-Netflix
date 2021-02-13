@@ -37,13 +37,3 @@ const url = 'https://api.themoviedb.org/3/movie/popular?api_key=cea68b520beecac6
 }
       pelisArrayPromise.then(renderPelis);
 
-//barra de search netflix
-
-var searchIcon = document.getElementsByClassName("search-box__icon")[0];
-var searchBox = document.getElementsByClassName("search-box")[0];
-
-searchIcon.addEventListener("click", activateSearch);
-
-function activateSearch() {  
-  searchBox.classList.toggle("active");
-}
