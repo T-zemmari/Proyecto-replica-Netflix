@@ -3,26 +3,21 @@
  padding: 0;
 
 }
-
-
 body{
     width: 100vw;
     height: 100vh;
     background-color: rgb(12, 11, 11);
 }
-
 header{
     width: 100vw;
-    height: 5em;
+    height: 4em;
     background-color: rgba(230, 221, 221,0.1);
 }
 .contenedorHeader{
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
-
 .logo{
 
     width: 6em;
@@ -32,15 +27,15 @@ header{
     margin-left: 2em;
 }
 .contenedorNav{
-    width: 78vw;
+    width: 20em;
     height: 5em;
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-left: 2em;
    
 }
 .navegador{
     
-    width: 90vw;
+    width: 70em;
     height: 3.5em;
     display: flex;
     flex-direction: row;
@@ -61,8 +56,6 @@ h4{
     color: white;
 }
 
-
-
 .nav{
     display: flex;
     flex-direction: row;
@@ -70,20 +63,36 @@ h4{
     align-items: center;
 
 }
-
-
-.peliculas{
+.btn{
     margin-top: 1em;
+    margin-left: 50em;
+}
+
+
+.movies{
+    
+    margin: 1em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  /*  justify-content: space-evenly;*/
     flex-wrap: wrap;
 
 }
-.misPelis{
-    width: 7em;
-    height: 7em;
+.peliculas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+}
+.imgPeliculas{
+    margin: 0.7em;
+    width: 15em;
+    height: 15em;
     border: 0.2em solid red;
     color: blanchedalmond;
     display: flex;
@@ -95,8 +104,9 @@ h4{
 }
 
 .misImagenes{
-    width: 7em;
-    height: 7em;
+    width: 12em;
+    height: 12em;
     border: 0.2em solid red;
     color: blanchedalmond;
 }
+
