@@ -67,6 +67,13 @@ h4{
 }
 
 
+.videos{
+    width: 70em;
+    height: 30em;
+    border: 0.2em solid red;
+    margin-top: 2em;
+    margin: auto;
+}
 
 
 .movies{
