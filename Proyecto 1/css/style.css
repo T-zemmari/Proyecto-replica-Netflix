@@ -1,0 +1,102 @@
+*{
+ margin: 0;
+ padding: 0;
+
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 11, 11);
+}
+
+header{
+    width: 100vw;
+    height: 5em;
+    background-color: rgba(230, 221, 221,0.1);
+}
+.contenedorHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo{
+
+    width: 6em;
+    height: 3em;
+    background-image: url(../img/netflix-removebg-preview.png);
+    background-size: cover;
+    margin-left: 2em;
+}
+.contenedorNav{
+    width: 78vw;
+    height: 5em;
+    margin-top: 2em;
+    margin-left: 2em;
+   
+}
+.navegador{
+    
+    width: 90vw;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    align-items: center;
+   
+}
+
+li{
+    margin: 0.5em;
+    margin-left: 0.5em;
+}
+.Infantil{
+    margin-left: 25em;
+
+}
+h4{
+    color: white;
+}
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.peliculas{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.misPelis{
+    width: 7em;
+    height: 7em;
+    border: 0.2em solid red;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+.misImagenes{
+    width: 7em;
+    height: 7em;
+    border: 0.2em solid red;
+    color: blanchedalmond;
+}
