@@ -83,16 +83,15 @@ const url = 'https://api.themoviedb.org/3/movie/popular?api_key=cea68b520beecac6
                        `
                        <img src="" class="imgPeliculas" width="12em" height="12em" >
                        <p class="titulo"> ${data.results['15'].title}</p>  `;
-
-
-
-
-                       
-    }
-        )
+                       }
+                  )
     
     }
+   // funcion apagar que no es mas que un F% en toda regla
+     const apagar = () => {
 
+        document.location.reload();
+     }
      
 
 

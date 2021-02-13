@@ -27,15 +27,17 @@ header{
     margin-left: 2em;
 }
 .contenedorNav{
-    width: 20em;
+    width: 40em;
     height: 5em;
     margin-top: 1.5em;
-    margin-left: 2em;
+    margin-left: 1.5em;
    
 }
+
+
 .navegador{
     
-    width: 70em;
+    width: 75em;
     height: 3.5em;
     display: flex;
     flex-direction: row;
@@ -45,7 +47,7 @@ header{
 }
 
 li{
-    margin: 0.5em;
+    margin: 0.2em;
     margin-left: 0.5em;
 }
 .Infantil{
@@ -63,10 +65,8 @@ h4{
     align-items: center;
 
 }
-.btn{
-    margin-top: 1em;
-    margin-left: 50em;
-}
+
+
 
 
 .movies{
