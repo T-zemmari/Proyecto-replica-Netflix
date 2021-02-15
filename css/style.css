@@ -2,11 +2,17 @@
  margin: 0;
  padding: 0;
 
+
 }
 body{
     width: 100vw;
     height: 100vh;
     background-color: rgb(12, 11, 11);
+}
+
+.pageOne{
+    display: flex;
+    flex-direction: column;
 }
 header{
     width: 100vw;
@@ -17,6 +23,9 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.cargando{
+    color: white;
 }
 .logo{
 
@@ -57,6 +66,10 @@ li{
 h4{
     color: white;
 }
+h1{
+    margin-top: 0.5em;
+    color: ivory;
+}
 
 .nav{
     display: flex;
@@ -67,53 +80,45 @@ h4{
 }
 
 
-.videos{
-    width: 70em;
-    height: 30em;
-    border: 0.2em solid red;
-    margin-top: 2em;
-    margin: auto;
-}
-
-
-.movies{
-    
-    margin: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  /*  justify-content: space-evenly;*/
-    flex-wrap: wrap;
-
-}
-.peliculas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-p{
-    color: white;
-}
 .imgPeliculas{
-    margin: 0.7em;
-    width: 15em;
-    height: 15em;
-    border: 0.2em solid red;
+   
+    width: 100vw;
+    height: 20em;
+    
     color: blanchedalmond;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1em;
+    flex-direction: row;
+    border-radius: 0.5em;
+    justify-content: space-between;
+    
+     
 
 }
 
 .misImagenes{
+    margin-top: 2em;
     width: 12em;
     height: 12em;
     border: 0.2em solid red;
+    margin-left: -4em;
+   
+   
+}
+.titulo{
+    display: flex;
+    color: ivory;
+    margin-top:15em;
+    margin-left: 3em;
+    flex-direction: row;
+}
+.ultimasPeliculas{
+    width: 100vw;
+    height: 20em;
+    
     color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.5em;
+    justify-content: space-between;
 }
 

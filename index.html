@@ -17,21 +17,28 @@
                <nav class="contenedorNav" >
                 
                  <ul class="navegador" style="list-style-type: none;" >
-                  <li><button  class="btn1"  onclick="mostarImagenes()" style="display: block;">On</button></li>
+                  
                   
                   <li class="Lista"><a href="#"><h4><Strong>Inicio</Strong></h4></a></li>
                   <li class="Lista" ><a href="#"><h4>Series Tv</h4></a></li>
-                  <li class="Lista" onclick="mostarImagenes()"><a href="#"><h4>Peliculas</h4></a></li>
+                  
                   <li class="Lista"><a href="#"><h4>Novedades Mas vistas</h4></a></li>
                   <li class="Lista"><a href="#"><h4>Mi Lista</h4></a></li>
                   <li class="Lista" ><a href="#"><h4>Ver De Nuevo</h4></a></li>
                   <!--Funcion refrescar la pagina -->
-                  <li><button  class="btn1"  onclick="apagar()" style="display: block;">Off</button></li>
-                  <li class="Lista"><a href="#"><h4></h4></a></li>
-                  <li class="Infantil" ><a href="#"><h4>Infantil</h4></a></li>
-                  <li class="Lista" ><a href="#"><h4></h4></a></li>
-                  <li class="Lista"><a href="#"></a></li>
-                  <li class="Lista" ><a href="#"></a></li>
+                 
+                  <li class="Lista"><a href="#"><div class="buscador">
+                      <select name="titulo" id="title">
+                      <option value="title" id="title">Titulo</option>
+                      <option value="gendre" id="gendre">Genero</option>
+                      <option value="identificador" id="ID">Identificador</option>
+              
+                    </select>
+                   <input type="texto" value="" id="search" placeholder="Escriba aqui su busqueda">
+                   <button id="btn" onclick="busqueda()">buscar </button>
+                </div></a></li>
+                  
+                  
                   
                   
                 </ul>
@@ -39,40 +46,30 @@
 
              </header>
 
-             <div class="videos">
-              <iframe width="1120" height="480" src="https://www.youtube.com/embed/yX5Py7lL5dw?controls=0&amp;start=4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             </div>
-            
+             <div class="contenido">
               
-       
-           <div class="movies">
-            <div class="peliculas" id="id1" ></div>
-            <div class="peliculas" id="id2" ></div>
-            <div class="peliculas" id="id3" ></div>
-            <div class="peliculas" id="id4" ></div>
-            <div class="peliculas" id="id5" ></div>
-            <div class="peliculas" id="id6" ></div>
-            <div class="peliculas" id="id7" ></div>
-            <div class="peliculas" id="id8" ></div>
-            <div class="peliculas" id="id9" ></div>
-            <div class="peliculas" id="id10" ></div>
-            <div class="peliculas" id="id11" ></div>
-            <div class="peliculas" id="id12" ></div>
-            <div class="peliculas" id="id13" ></div>
-            <div class="peliculas" id="id14" ></div>
-            <div class="peliculas" id="id15" ></div>
-            <div class="peliculas" id="id16" ></div>
-          
-            
-        
-        
-        </div> 
+                   
+              
+              <H1>Peliculas Populares</H1><br>
+              <div id="movies" class="populares imgPeliculas">
+              </div>
+
+
+              <h1>Ultimas peliculas Añadidas</h1>
+
+              <div id="ultimas" class="ultimasPeliculas">
+
+              </div>
+
+
+
+           
+            </div>
     </div>
-
-
-
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
-    <script src="peliculas.js"></script>
+   <script src="peliculas2.js"></script>
+   <script src="search.js"></script>
+   
 </body>
 </html>
