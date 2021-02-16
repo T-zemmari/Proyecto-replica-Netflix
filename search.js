@@ -24,15 +24,16 @@ const call = async (url) => {
     return res.data.results;
 }
 
-const render = async (coleccion) => {
-   
+const render =  () => {
+    cambioDepantalla('screen1','screen2');
 
 }
 
 
 
 const search = async () => {
-    let query = buscar.value;
+    let query = buscar.title;
+   
 
     //Construccion de la URL 
     let url = `${base_url}/${criterio}?api_key=${key}&query=${query}`; 
@@ -40,8 +41,10 @@ const search = async () => {
     let movies = await call(url);
 
 
-    render(movies);
+    //render(movies);
     
 
     
 };
+
+

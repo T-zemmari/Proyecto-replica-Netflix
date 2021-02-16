@@ -50,5 +50,10 @@ const renderPeliculas = (movies) =>{
   }
   
   ultimasPeliculas();
-
+  const cambioDepantalla = (pantalla1 , pantalla2)=> {
+    const uno = document.getElementById('screen1').style.display = 'none';
+    const dos = document.getElementById('screen2').style.display = 'block';
+   };
+   
+   cambioDepantalla;
 

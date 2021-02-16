@@ -21,11 +21,11 @@
                   
                   <li class="Lista"><a href="#"><h4><Strong>Inicio</Strong></h4></a></li>
                   <li class="Lista" ><a href="#"><h4>Series Tv</h4></a></li>
-                  
+                  <li class="Lista"><a href="#"><h4>Peliculas</h4></a></li>
                   <li class="Lista"><a href="#"><h4>Novedades Mas vistas</h4></a></li>
                   <li class="Lista"><a href="#"><h4>Mi Lista</h4></a></li>
                   <li class="Lista" ><a href="#"><h4>Ver De Nuevo</h4></a></li>
-                  <!--Funcion refrescar la pagina -->
+                  
                  
                   <li class="Lista"><a href="#"><div class="buscador">
                       <select name="titulo" id="title">
@@ -34,8 +34,8 @@
                       <option value="identificador" id="ID">Identificador</option>
               
                     </select>
-                   <input type="texto" value="" id="search" placeholder="Escriba aqui su busqueda">
-                   <button id="btn" onclick="busqueda()">buscar </button>
+                   <input type="texto" value="title" id="search" placeholder="Escriba aqui su busqueda">
+                   <button id="btn" onclick="cambioDepantalla('screen1','screen2')">buscar </button>
                 </div></a></li>
                   
                   
@@ -46,7 +46,7 @@
 
              </header>
 
-             <div class="contenido">
+             <div class="contenido" id="screen1" style="display: block;">
               
                    
               
@@ -62,9 +62,19 @@
               </div>
 
 
+              <div class="segundoContenido"  id="screen2" style="display: none;">
+
+              </div>
+
+
 
            
             </div>
+            
+
+
+
+
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
