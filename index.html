@@ -19,23 +19,25 @@
                  <ul class="navegador" style="list-style-type: none;" >
                   
                   
-                  <li class="Lista"><a href="#"><h4><Strong>Inicio</Strong></h4></a></li>
+                  <li class="Lista"  onclick="inicio()"><a href="#"><h4><Strong>Inicio</Strong></h4></a></li>
                   <li class="Lista" ><a href="#"><h4>Series Tv</h4></a></li>
-                  <li class="Lista"><a href="#"><h4>Peliculas</h4></a></li>
+                  <li class="Lista" onclick="ShowMovies()"><a href="#"><h4>Peliculas</h4></a></li>
                   <li class="Lista"><a href="#"><h4>Novedades Mas vistas</h4></a></li>
                   <li class="Lista"><a href="#"><h4>Mi Lista</h4></a></li>
-                  <li class="Lista" ><a href="#"><h4>Ver De Nuevo</h4></a></li>
+                  <!--<li class="Lista" ><a href="#"><h4>Ver De Nuevo</h4></a></li>-->
                   
                  
                   <li class="Lista"><a href="#"><div class="buscador">
-                      <select name="titulo" id="title">
+                     <!-- <select name="titulo" id="title">
                       <option value="title" id="title">Titulo</option>
                       <option value="gendre" id="gendre">Genero</option>
                       <option value="identificador" id="ID">Identificador</option>
               
-                    </select>
-                   <input type="texto" value="title" id="search" placeholder="Escriba aqui su busqueda">
-                   <button id="btn" onclick="cambioDepantalla('screen1','screen2')">buscar </button>
+                    </select>-->
+                   <input type="texto" id="buscador" placeholder="buscar por titulo">
+                   <button id="btn" onclick="buscador()">buscar </button>
+                   <input type="texto" id="buscador" placeholder="buscar por id">
+                   <button id="btn" onclick="buscadorPorID()">buscar </button>
                 </div></a></li>
                   
                   
@@ -45,31 +47,47 @@
                </nav>
 
              </header>
-
-             <div class="contenido" id="screen1" style="display: block;">
+             <!--Primera pantalla donde se mostraran las peliculas populares y las latest.-->
+             <div class="contenido" id="screen1" style="display: none;">
               
                    
               
-              <H1>Peliculas Populares</H1><br>
-              <div id="movies" class="populares imgPeliculas">
+                    <H1 id="pelisPopulares" style="display: none;">Peliculas Populares</H1><br>
+                     <div id="movies" class="populares imgPeliculas" ></div>
+
+
+                       <h1 id="pelisLatest" style="display: none;">Ultimas peliculas Añadidas</h1>
+
+                       <div id="ultimas" class="ultimasPeliculas"></div>
+             </div>
+
+             <!--Segunda pantalla donde se mostraran las busquedas-->
+
+             
+              <div class="contenidoDos"  id="screen2" style="display: none;">
+              
+              
               </div>
 
 
-              <h1>Ultimas peliculas Añadidas</h1>
+              <div class="contenido3"  id="screen3" style="display: flex;">
 
-              <div id="ultimas" class="ultimasPeliculas">
+                <H1> ¿ Quien eres ? Elige tu perfil</H1>
+                <div class="usuarios">
+                  <button class="perfil1"></button>
+                  <button class="perfil2"></button>
+                  <button class="perfil3"></button>
+                  <button class="perfil4"></button>
+                  
+                </div>
+                <button class="btn2"><h2>ADMINISTRAR PERFILES</h2></button>
+
 
               </div>
-
-
-              <div class="segundoContenido"  id="screen2" style="display: none;">
-
-              </div>
-
-
+                
 
            
-            </div>
+            
             
 
 
@@ -77,9 +95,10 @@
 
     </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
    <script src="peliculas2.js"></script>
    <script src="search.js"></script>
+   <script src="inicio.js"></script>
    
 </body>
 </html>

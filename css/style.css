@@ -46,7 +46,7 @@ header{
 
 .navegador{
     
-    width: 75em;
+    width: 56em;
     height: 3.5em;
     display: flex;
     flex-direction: row;
@@ -90,6 +90,7 @@ h1{
     flex-direction: row;
     border-radius: 0.5em;
     justify-content: space-between;
+    overflow-y: scroll;
     
      
 
@@ -114,11 +115,89 @@ h1{
 .ultimasPeliculas{
     width: 100vw;
     height: 20em;
-    
+    overflow-y: scroll;
     color: blanchedalmond;
     display: flex;
     flex-direction: row;
     border-radius: 0.5em;
     justify-content: space-between;
 }
+ .contenidoDos{
+    width: 100vw;
+    height: 40em;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.5em;
+    justify-content: space-between;
+    overflow-y: scroll;
+     
 
+ }
+.nuevaClase{
+    margin-top: 2em;
+    margin: 1em;
+    width: 12em;
+    height: 12em;
+    border: 0.2em solid red;
+    
+}
+/* pantalla inicio */
+.contenido3{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.usuarios{
+    display: flex;
+    
+    flex-direction: row;
+    margin: 1em;
+    
+}
+.perfil1{
+    width: 8em;
+    height: 8em;
+    border: whitesmoke solid 0.1em;
+    margin: 1em;
+    background-image: url(../img/carita\ netflix1.jpg);
+    background-size: cover;
+
+}
+.perfil2{
+    width: 8em;
+    height: 8em;
+    border: whitesmoke solid 0.1em;
+    margin: 1em;
+    background-image: url(../img/carita\ netflix\ 2.jpg);
+    background-size: cover;
+
+}
+.perfil3{
+    width: 8em;
+    height: 8em;
+    border: whitesmoke solid 0.1em;
+    margin: 1em;
+    background-image: url(../img/infantil\ netflix.jpg);
+    background-size: cover;
+
+}
+.perfil4{
+    width: 8em;
+    height: 8em;
+    border: whitesmoke solid 0.1em;
+    margin: 1em;
+    background-image: url(../img/añadir\ netflix.jpg);
+    background-size: cover;
+
+}
+
+
+
+.btn2{
+    color: rgb(12, 12, 12);
+}
