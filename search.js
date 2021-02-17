@@ -37,6 +37,7 @@ const pintar = async (coleccionPintar) => {
     // console.log(coleccionPintar);
     if (Array.isArray(coleccionPintar)) {
         coleccionPintar.forEach(pelicula => {
+            //domElement.innerHTML ="";
             domElement.innerHTML += `
            
             <img src='https://image.tmdb.org/t/p/w500${pelicula.poster_path}' class="nuevaClase" >
@@ -45,6 +46,7 @@ const pintar = async (coleccionPintar) => {
     }
     
     if (coleccionPintar.original_title){
+        //domElement.innerHTML ="";
         domElement.innerHTML += `
             <p class="titulo">${coleccionPintar.original_title}<p>
             <img src='https://image.tmdb.org/t/p/w500${coleccionPintar.poster_path}' >

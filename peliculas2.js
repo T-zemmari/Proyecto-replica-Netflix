@@ -18,7 +18,11 @@ const switchPantallas1 = (p,po,pi)=>{
   pantalla4.style.display= 'block';
   pantalla5.style.display= 'none'
   pantalla6.style.display= 'none'
+
+  
 }
+
+
 
 
 const ShowMovies = () =>{
