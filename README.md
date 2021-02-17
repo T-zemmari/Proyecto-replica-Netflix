@@ -21,13 +21,32 @@ No hace falta, instalar ningún software, esta pagina web funciona en casi todos
 
 Aquí dejo los links de mi repositorio y también del proyecto ya deployado:
 
+
 Repository : https://github.com/T-zemmari/Proyecto-replica-Netflix/tree/develop
 
 Proyecto en fase de construcción pero algo se puede ver :
 https://t-zemmari.github.io/Proyecto-replica-Netflix/
 
+## Ver películas Populares : Darle click a Películas o uno de los iconos de los usuario :
+![Alt text](https://github.com/T-zemmari/Proyecto-replica-Netflix/blob/develop/img/carita%20netflix1.jpg?raw=true)
+
+
+![Alt text](https://github.com/T-zemmari/Proyecto-replica-Netflix/blob/develop/img/Inicio.png?raw=true)
+
+Si quieres ver portada de las películas por búsqueda solo tienes que poner el titulo o el id de la película en uno de los buscadores,
+
+mas adelante refactorizare tanto el código como la apariencia.
+
+
+
 
 ## Herramientas Usadas en el Proyecto :
+
+![Alt text](https://github.com/T-zemmari/Proyecto-replica-Netflix/blob/develop/img/html%20js%20y%20css.png?raw=true)
+
+
+
+
 
 
 
@@ -35,4 +54,3 @@ https://t-zemmari.github.io/Proyecto-replica-Netflix/
 ## License
 
 # MIT
-
