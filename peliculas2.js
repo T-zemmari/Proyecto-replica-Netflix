@@ -3,13 +3,14 @@
 let buscar = document.getElementById("search");
 let url ="https://api.themoviedb.org/3/movie/popular?api_key=ef2edc9da61e81787a8079a7df721936&language=es-ES";
 let url_latest = 'https://api.themoviedb.org/3/movie/top_rated?api_key=ef2edc9da61e81787a8079a7df721936&language=en-US&page=1language=es-ES';
+let_upcomming = 'https://api.themoviedb.org/3/movie/upcoming?api_key=ef2edc9da61e81787a8079a7df721936&page=10'
 
 
 const refrescarPagina =()=>{
   location.reload()
 }
 
- let pantalla4= document.getElementById('screen1');
+  let pantalla4= document.getElementById('screen1');
   let pantalla5= document.getElementById('screen2');
   let pantalla6= document.getElementById('screen3');
 const switchPantallas1 = (p,po,pi)=>{
